@@ -108,8 +108,8 @@ if __name__ == '__main__':
     reset_time[scene] = []
     action = 0
     save_node = 0
-    model = ViTForNavigation()
-    sd = torch.load('epoch0005iter15500.pt')
+    model = OVRL_model()
+    sd = torch.load('your model') #put your trained model here
     model.load_state_dict(sd['state_dict'])
 
     total_episodes = 0
