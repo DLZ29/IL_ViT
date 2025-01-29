@@ -61,8 +61,8 @@ def train():
     config.TORCH_GPU_ID = args.gpu
     config.freeze()
 
-    policy = OVRL()
-    trainer = BC_trainer(policy)#from trainer.py
+    policy = OVRL_model() #choose your model
+    trainer = BC_trainer(policy)
 
 
     DATA_DIR = args.data_dir
