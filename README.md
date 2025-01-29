@@ -2,7 +2,7 @@
 This is a demo to test ViT-based foundation models for image-navigation tasks, using immitation learning with Habitat Sim.
 
 ## Environment Configuration
-Ensure that Habitat-sim and Habitat-lab are installed properly. For datasets, please refer to [GibsonEnv] (https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md) and [PointNav (Task Dataset)](https://github.com/facebookresearch/habitat-challenge/tree/challenge-2019)
+Ensure that Habitat-sim and Habitat-lab are installed properly. For datasets, please refer to [GibsonEnv](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md) and [PointNav (Task Dataset)](https://github.com/facebookresearch/habitat-challenge/tree/challenge-2019)
 
 ## Data Generation
 ```bash
